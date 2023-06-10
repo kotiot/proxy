@@ -1,0 +1,19 @@
+mqtt:
+  host: iot.lan
+  port: 1883
+  username:
+  password:
+  prefix: homeassistant/
+
+devices:
+  # water usage
+  a26f6e82-e006-11ec-9aaf-87d30db676d1:
+    key: 085ce5c8d31cb6e6
+  # click
+  d7d80618-e030-11ec-83a4-631c4abd3eb2:
+    key: fb9239d72670dd63
+  # t&h
+  d2a0ddd8-e034-11ec-914a-83614988fb25:
+    key: c84529592dcd45ba
+  580f3658-e040-11ec-9ca6-53fbcc6993b6:
+    key: 749be75c0d3b1589
